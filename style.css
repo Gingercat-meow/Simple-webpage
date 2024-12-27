@@ -18,6 +18,11 @@ html, body {
     display: inline;
 }
 
+
+.header {
+    text-align: center; color: #4b4949;
+}
+
 .nav a {
     display: inline-block;
     padding: .5em;
@@ -26,14 +31,14 @@ html, body {
 }
 
 .nav a:hover {
-    background-color: rgba(255,255,255,.3) ;
+    background-color: rgba(7, 239, 231, 0.3) ;
 }
 
 .main-nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 2px solid rgba(255,255,255,.3);
 }
 .main-nav li {
     padding: 0 5%
@@ -46,6 +51,11 @@ html, body {
     padding-bottom: 30px;
 }
 
+.content {
+    margin: 1em; max-width: 900px; padding: 0 1.5em;
+
+}
+
 .head-title {
     text-align: center;
     font-size: 4em;
@@ -53,10 +63,4 @@ html, body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     color: rgb(209, 220, 230);
-
-.title-small {
-    font-size: small;
-}
-.content-section {
-    margin: 1em;
 }
